@@ -1,0 +1,52 @@
+# Ignore compiled binaries
+*.exe
+*.o
+*.out
+*.class
+
+# Ignore dependencies and package files
+/node_modules
+/pipenv
+/.venv
+/.env
+
+env/
+
+# Ignore editor and IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore logs and temporary files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore user-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore environment-specific files
+.env
+.env.local
+.env.*.local
+.env.development
+.env.test
+.env.production
+
+# Ignore generated files and build directories
+/build
+/dist
+
+# Ignore sensitive or configuration files
+config.json
+secrets.ini
+
+# Ignore Python cache
+__py_cache__
+
+# Ignore miscellaneous files
+.DS_Store
+desktop.ini
